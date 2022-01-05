@@ -4,8 +4,6 @@ body{
     padding: 0;
     color: #3E3E3E;
 }
-/* font-family: 'Lobster', cursive; */
-
 .flex-display{
     display: flex;
 }
@@ -22,13 +20,16 @@ body{
 }
 .different-font{
     font-family: 'Yeseva One', cursive;
-    line-height: 30px;
 }
 h1{
     font-size: 50px;
+    line-height: 30px;
 }
 h2{
     font-size: 35px;
+}
+h3{
+    font-size: 30px;
 }
 .button{
     text-decoration: none;
@@ -49,8 +50,7 @@ h2{
 }
 .half-width img{
     width: 70%;
-    margin-left: 45px;
-    margin-top: -50px;
+    margin-left: 50px;
 }
 .half-width h4{
     font-weight: 200;
@@ -82,7 +82,7 @@ h2{
     margin-left: 25px;
 }
 .develop{
-    padding: 70px 0px;
+    padding: 70px 0px 20px 0px;
     background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
@@ -104,10 +104,44 @@ h2{
     line-height: 20px;
 }
 .community{
-    padding: 70px 0px;
+    padding: 70px 0px 50px 80px;
     background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: 150px;
     background-position: right;
+    background-position-x: 1150px;
     background-position-y: 350px;
+}
+.help{
+    padding-bottom: 200px;
+    background-image: url(images/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: right;
+    background-position-x: 155px;
+    background-position-y: 60px;
+}
+.help .half-width img{
+    border-radius: 40px;   
+}
+.help .half-width h1{
+    margin-left: 0px;
+}
+.footer{
+    width: 100%;
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px 0px;
+    letter-spacing: 2px;
+}
+.footer h3{
+    font-family: 'Lobster', cursive;
+}
+.footer p{
+    font-size: 10px;
+}
+#pink-color{
+    color: #FF5959;
 }
