@@ -27,6 +27,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .button{
     text-decoration: none;
     background-color: #FF5959;
@@ -77,4 +80,34 @@ h1{
     border-radius: 30px;
     padding: 20px 20px;
     margin-left: 25px;
+}
+.develop{
+    padding: 70px 0px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 60px;
+    background-position-y: 150px;
+}
+.some-width{
+    width: 45%;
+}
+ .some-width img{
+    width: 65%;
+    padding-left: 150px;
+} 
+.much-width{
+    width: 50%;
+    padding-top: 20px;
+}
+.much-width h2{
+    line-height: 20px;
+}
+.community{
+    padding: 70px 0px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right;
+    background-position-y: 350px;
 }
