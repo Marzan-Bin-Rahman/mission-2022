@@ -6,8 +6,11 @@ body{
 }
 /* font-family: 'Lobster', cursive; */
 
-.top{
+.flex-display{
     display: flex;
+}
+.headline{
+    text-align: center;
 }
 #border{
     border-left: 3px solid #FF5959;
@@ -50,4 +53,28 @@ h1{
     font-weight: 200;
     position: relative;
     margin-top: 100px;
+}
+.my-mission .box{
+    padding: 0px 150px;
+    border-radius: 10px;
+}
+.my-mission .box img{
+    width: 40%;
+}
+#mission{
+    background-color: #EDF5F6;
+    border-radius: 30px;
+    padding: 20px 20px;
+}
+#vission{
+    background-color: #FFEEEE;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-left: 25px;
+}
+#goals{
+    background-color: #FFF4D6;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-left: 25px;
 }
