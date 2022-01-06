@@ -39,7 +39,7 @@ h3{
     color: white;
     font-weight: 500;
     margin-top: 15px;
-    display: inline-block;
+    position: absolute;
 }
 .half-width{
     width: 50%;
@@ -52,8 +52,7 @@ h3{
     width: 70%;
     margin-left: 50px;
 }
-.half-width h4{
-    font-weight: 200;
+.half-width #scroll{
     position: relative;
     margin-top: 100px;
 }
